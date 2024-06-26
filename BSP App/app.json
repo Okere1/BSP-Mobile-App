@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "HWE-BSP-App",
+    "slug": "HWE-BSP-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/BSP-Icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/BSP-Icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/BSP-Icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.okere.HWEBSPMobileApp"
+    },
+    "web": {
+      "favicon": "./assets/BSP-Icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fe6d5dc-41b0-4da0-adc6-82c2efcf09d0"
+      }
+    }
+  }
+}
